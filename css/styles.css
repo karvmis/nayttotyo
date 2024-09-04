@@ -18,6 +18,10 @@ h6 {
     padding-bottom: 6px;
 }
 
+#hh2 {
+    text-align: center;
+}
+
 #paintingHand {
     width: 100%;
     height: auto;
@@ -44,10 +48,16 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
+
 /* pitää footerin sivun alla */
 .content {
     flex: 1;
     padding-top: 56px;
+}
+
+.content button {
+    padding: 14px 28px;
+    border-radius: 100%;
 }
 
 p {
@@ -57,22 +67,47 @@ p {
     padding-bottom: 6px;
 }
 
-.form{
+.form {
     padding-left: 50px;
 }
 
-.container{
+.container {
     display: flex;
     justify-content: space-between;
 }
 
-.box1{
-    width: 40%;
-    padding: 20px;
-    background-color: lightgray;
-    text-align: center;
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 kolumnia */
+    gap: 10px;
+    /* Väli kuvien välillä */
+    padding: 10px;
 }
 
-.title2{
-    text-align: center;
+.gallery-grid img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.colorPalette {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+/* värinapit */
+.color {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid #000;
+}
+
+.rectangle1,
+.rectangle2 {
+    padding-left: 14px;
+    padding-right: 14px;
 }
