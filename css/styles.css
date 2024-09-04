@@ -56,3 +56,23 @@ p {
     padding-top: 6px;
     padding-bottom: 6px;
 }
+
+.form{
+    padding-left: 50px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box1{
+    width: 40%;
+    padding: 20px;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.title2{
+    text-align: center;
+}
