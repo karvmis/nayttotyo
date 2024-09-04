@@ -1,0 +1,58 @@
+h1 {
+    font-size: 24px;
+    font-family: Roboto;
+    text-align: center;
+    padding-top: 16px;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 16px;
+    font-family: Roboto;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+#paintingHand {
+    width: 100%;
+    height: auto;
+}
+
+.footer {
+    color: white;
+    background-color: rgb(59, 59, 59);
+    padding: 22px;
+}
+
+.footer li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto;
+
+    /* pitää footerin sivun alla */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+/* pitää footerin sivun alla */
+.content {
+    flex: 1;
+    padding-top: 56px;
+}
+
+p {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
